@@ -1,40 +1,31 @@
-# Hi, I'm Shobhit 👋
+### Shobhit Agnihotri
 
-I'm an AI/ML engineer based in India. I build things at the intersection of LLM internals, reinforcement learning, and agent systems  usually from scratch, because that's the only way I actually learn how they work.
+I build world models, RL post-training systems (GRPO, DPO, PPO), and autonomous agent infrastructure from first principles. B.S. in Data Science at IIT Madras.
 
----
+Experience:
+- Independent Systems & ML Researcher. September 2024 – Present.
+  Implementing frontier model architectures and alignment algorithms from scratch (World Models, GRPO, MoE, custom autograd, LoRA/DPO).
+- AI Engineer at [LOQO.AI](https://loqo.ai). January 2024 – August 2024.
+  Architected multi-modal video intelligence and story generation pipelines using Whisper, LangChain, and diffusion models. Reduced manual production time by ~90%.
 
->Things I've Built
+Education:
+- B.S. in Data Science & Applications, [Indian Institute of Technology, Madras](https://www.iitm.ac.in) (IIT Madras). 2022 – 2026 (Expected).
 
- [dreamer4-coinrun](https://github.com/shobhitagnihotri69/dreamer4-coinrun)
-Trained the full Dreamer 4 architecture on 9.6M frames of CoinRun I generated myself. A 1.57B-parameter action-conditioned transformer trained with flow matching + shortcut forcing on one H200. PSNR 40.41 — beats GenieRedux baseline. Cost: ~$150.
+Projects:
+- [dreamer4-coinrun](https://github.com/shobhitagnihotri69/dreamer4-coinrun) : Trained a 1.57B-parameter action-conditioned world model with flow matching + shortcut forcing on 9.6M self-generated CoinRun frames on an H200 (PSNR 40.41, beats GenieRedux baseline). Fixed 5 upstream bugs in the original codebase blocking environment rollouts.
+- [mercor-grpo-agent](https://github.com/shobhitagnihotri69/mercor-grpo-agent) : Empirical reproduction and critique of Mercor's RL post-training setup vs. standard DeepSeek GRPO on SWE-bench. Evaluated length bias, token entropy regularization, and dynamic DPPO prefix-masking with an interactive benchmark runner.
+- [swe-in-prod](https://github.com/shobhitagnihotri69/swe-in-prod) : From-scratch implementation of Group Relative Policy Optimization (GRPO, DeepSeek-R1) for agentic reasoning and code synthesis. Built the actor-environment loop, advantage normalization without a critic model, and LoRA policy updates on SWE-bench tasks.
+- [llm-lite](https://github.com/shobhitagnihotri69/llm-lite) : Zero-dependency transformer and alignment stack in pure PyTorch/NumPy. Built custom autograd, BPE tokenizer, RoPE, KV-cache, SFT, LoRA, DPO, PPO, and INT4 weight-only quantization with full test suites.
+- [nano-gpt-oss](https://github.com/shobhitagnihotri69/nano-gpt-oss) : Transformer architecture beating the GPT-2 baseline across 18 ablation configurations. Added gated Mixture-of-Experts (MoE) routing, SwiGLU activations, Grouped-Query Attention (GQA), and Sliding Window Attention with sink tokens.
+- [Slack-ClawdBot](https://github.com/shobhitagnihotri69/Slack-ClawdBot) : Production TypeScript agent infrastructure with semantic RAG over historical chat threads, persistent memory via mem0, Model Context Protocol (MCP) clients for GitHub and Notion, and 59 custom tools.
+- [world-model-from-scratch](https://github.com/shobhitagnihotri69/world-model-from-scratch) : Implementation of Ha & Schmidhuber (2018) World Models. Trains a VAE visual compressor and MDN-RNN memory network (~167k parameters) to simulate game rollouts entirely within hallucinated latent dreams.
 
-The original Open Dreamer codebase had 5 bugs that prevented it from running on CoinRun at all. I found and fixed all of them. The debugging notes are in the repo.
+Technical Focus:
+- PyTorch, NumPy, CUDA, Transformers, Autograd, Flow Matching
+- GRPO, PPO, DPO, Reward Modeling, Advantage Normalization, LoRA / PEFT
+- Model Context Protocol (MCP), LangGraph, RAG, TypeScript, Modal GPU Infra, Docker
 
-[swe-in-prod](https://github.com/shobhitagnihotri69/swe-in-prod)
-Implemented GRPO (Group Relative Policy Optimization) from scratch — the same RL algorithm DeepSeek-R1 uses for reasoning. Applied it to fine-tune Qwen 2.5 Coder 0.5B on real SWE-bench bugs using a mock shell environment. No critic, no value network. Just sampling N rollouts, scoring them, and updating the policy.
-
-[llm-lite](https://github.com/shobhitagnihotri69/llm-lite)
-Complete LLM stack from scratch in PyTorch. 8 stages: tokenizer → NumPy autograd → custom AdamW → RoPE + Multi-Head Attention + KV-Cache → pre-training → SFT → LoRA + DPO + PPO → INT4 quantization. Every component has unit tests. No HuggingFace in the core.
-
-[nano-gpt-oss](https://github.com/shobhitagnihotri69/nano-gpt-oss)
-A transformer that beats GPT-2 baseline across 18 ablations (varied heads, layers, hidden dim). Architecture additions: MoE with gated routing, SwiGLU FFN, Grouped Query Attention + RoPE, Sliding Window Attention, Sink Slots, RMSNorm.
-
-[world-model-from-scratch](https://github.com/shobhitagnihotri69/world-model-from-scratch)
-Implementation of Ha & Schmidhuber 2018 "World Models" on MiniPong. Two tiny networks (V + M, ~167k params) learn the physics of Pong from pixels alone, then simulate the game with the actual game engine turned off.
-
-[Slack-ClawdBot](https://github.com/shobhitagnihotri69/Slack-ClawdBot)
-Production TypeScript Slack bot with three integrated systems: RAG (semantic search over indexed Slack history), long-term memory with mem0.ai, and MCP integration for GitHub and Notion. 59 tools. Docker-deployed.
-
-
-
-## Stack
-
-**Core:** Python · PyTorch · NumPy  
-**LLMs & Agents:** LangGraph · CrewAI · Smolagents · LlamaIndex · LangChain  
-**Infra:** Modal · Vercel · Docker · Hugging Face  
-**Backend:** FastAPI · TypeScript · Node.js  
-**Other:** MCP (Model Context Protocol) · PEFT · LoRA · GRPO · PPO · DPO
-
----
-
+Contact:
+- Email: shobhitagnihotri416 [at] gmail [dot] com
+- Portfolio: [shobhitagnihotri69.github.io](https://shobhitagnihotri69.github.io)
+- GitHub: [shobhitagnihotri69](https://github.com/shobhitagnihotri69)
