@@ -1,6 +1,6 @@
 ### Shobhit Agnihotri
 
-I build world models, LLM architectures from scratch, post-training RL systems, and autonomous agent infrastructure from first principles. B.S. in Data Science at IIT Madras.
+I make  LLM architectures from scratch, post-training RL systems, and autonomous agent infrastructure from first principles. Graduating from  IIT Madras.
 
 Experience:
 - Independent Systems & ML Researcher. September 2024 – Present.
@@ -9,7 +9,7 @@ Experience:
   Architected multi-modal video intelligence and automated narrative generation pipelines using Whisper, LangChain, and diffusion models. Reduced manual production turnaround by ~90%.
 
 Education:
-- B.S. in Data Science & Applications, [Indian Institute of Technology, Madras](https://www.iitm.ac.in) (IIT Madras). 2022 – 2026 (Expected).
+- [Indian Institute of Technology, Madras](https://www.iitm.ac.in) (IIT Madras). 2023 – 2026 (Expected).
 
 World Models:
 - [dreamer4-coinrun](https://github.com/shobhitagnihotri69/dreamer4-coinrun) : Trained a 1.57B-parameter action-conditioned world model with flow matching + shortcut forcing on 9.6M self-generated CoinRun frames on an H200 (PSNR 40.41, beating GenieRedux baselines). Debugged and fixed 5 upstream bugs in the original codebase that prevented environment rollouts.
@@ -35,6 +35,6 @@ Technical Focus:
 - Model Context Protocol (MCP), TypeScript, LangGraph, RAG, Modal GPU Infra, Docker
 
 Contact:
-- Email: shobhitagnihotri416 [at] gmail [dot] com
+- Email: shobhitagnihotri416@gmail.com
 - Portfolio: [shobhitagnihotri69.github.io](https://shobhitagnihotri69.github.io)
 - GitHub: [shobhitagnihotri69](https://github.com/shobhitagnihotri69)
