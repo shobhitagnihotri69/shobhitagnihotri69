@@ -1,0 +1,46 @@
+name: Sync Merged Pull Requests
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/sync_merged_prs.py'
+      - '.github/workflows/sync-merged-prs.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run PR sync script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/sync_merged_prs.py
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status -s README.md) ]]; then
+            git add README.md
+            git commit -m "docs(profile): sync merged open-source pull requests [skip ci]"
+            git push
+          else
+            echo "No changes detected in README.md."
+          fi
