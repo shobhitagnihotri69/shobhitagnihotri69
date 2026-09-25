@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 22** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 23** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#626](https://github.com/Hebbian-Robotics/hflow/pull/626) | `fix(episode): select filter flag by FFmpeg version to support FFmpeg …` | Sep 25, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#625](https://github.com/Hebbian-Robotics/hflow/pull/625) | `fix(importers/lerobot): refuse unsupported storage_format (#624)` | Sep 25, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#621](https://github.com/Hebbian-Robotics/hflow/pull/621) | `fix(doctor): report missing channels in chunk indexes instead of crashing (#620)` | Sep 24, 2026 |
 | [ColinGPT9/clips-studio](https://github.com/ColinGPT9/clips-studio) | [#104](https://github.com/ColinGPT9/clips-studio/pull/104) | `fix(pipeline): persist recovered metadata to db on cached downloads a…` | Sep 24, 2026 |
