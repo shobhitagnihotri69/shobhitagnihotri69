@@ -91,8 +91,8 @@ def update_readme(repo_root: Path, new_section: str):
         pattern = re.compile(rf"{re.escape(START_TAG)}.*?{re.escape(END_TAG)}", re.DOTALL)
         updated_content = pattern.sub(new_section, content)
     else:
-        # Insert before Technical Focus: or at the end
-        anchor = "Technical Focus:"
+        # Insert before World Models: (immediately below Education:)
+        anchor = "World Models:"
         header = "Open Source Contributions & Merged Pull Requests:\n"
         full_block = f"{header}{new_section}\n\n"
         if anchor in content:
