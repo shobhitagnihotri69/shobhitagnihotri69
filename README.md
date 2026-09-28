@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 24** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 25** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [trycua/cua](https://github.com/trycua/cua) | [#4229](https://github.com/trycua/cua/pull/4229) | `fix(cua-driver): drop the boolean enum from verify_state for Gemini clients` | Sep 28, 2026 |
 | [orbi-build/orbi](https://github.com/orbi-build/orbi) | [#1419](https://github.com/orbi-build/orbi/pull/1419) | `fix(github): treat plan-limit 403 on rulesets as empty rulesets (#1361)` | Sep 27, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#626](https://github.com/Hebbian-Robotics/hflow/pull/626) | `fix(episode): select filter flag by FFmpeg version to support FFmpeg …` | Sep 25, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#625](https://github.com/Hebbian-Robotics/hflow/pull/625) | `fix(importers/lerobot): refuse unsupported storage_format (#624)` | Sep 25, 2026 |
