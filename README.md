@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 25** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 26** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | [#1362](https://github.com/doobidoo/mcp-memory-service/pull/1362) | `fix(health): surface missing embeddings in health checks and audit repair script (Refs #1225)` | Sep 28, 2026 |
 | [trycua/cua](https://github.com/trycua/cua) | [#4229](https://github.com/trycua/cua/pull/4229) | `fix(cua-driver): drop the boolean enum from verify_state for Gemini clients` | Sep 28, 2026 |
 | [orbi-build/orbi](https://github.com/orbi-build/orbi) | [#1419](https://github.com/orbi-build/orbi/pull/1419) | `fix(github): treat plan-limit 403 on rulesets as empty rulesets (#1361)` | Sep 27, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#626](https://github.com/Hebbian-Robotics/hflow/pull/626) | `fix(episode): select filter flag by FFmpeg version to support FFmpeg …` | Sep 25, 2026 |
