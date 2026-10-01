@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 27** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 28** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#644](https://github.com/Hebbian-Robotics/hflow/pull/644) | `fix(episode): handle empty channels in ChannelData.to_arrow (#631)` | Oct 01, 2026 |
 | [AssemblyAI/assemblyai-python-sdk](https://github.com/AssemblyAI/assemblyai-python-sdk) | [#255](https://github.com/AssemblyAI/assemblyai-python-sdk/pull/255) | `fix(streaming): add non-negative validation constraints to RealTimeTr…` | Sep 29, 2026 |
 | [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | [#1362](https://github.com/doobidoo/mcp-memory-service/pull/1362) | `fix(health): surface missing embeddings in health checks and audit repair script (Refs #1225)` | Sep 28, 2026 |
 | [trycua/cua](https://github.com/trycua/cua) | [#4229](https://github.com/trycua/cua/pull/4229) | `fix(cua-driver): drop the boolean enum from verify_state for Gemini clients` | Sep 28, 2026 |
