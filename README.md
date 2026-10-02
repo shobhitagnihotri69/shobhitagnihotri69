@@ -14,10 +14,12 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 29** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 31** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#952](https://github.com/RunanywhereAI/runanywhere-sdks/pull/952) | `docs(core,swift): propagate UTF-8 text-run streaming docstrings acros…` | Oct 02, 2026 |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#648](https://github.com/Hebbian-Robotics/hflow/pull/648) | `fix(examples/lerobot): support multi-task datasets and global task indices (#632)` | Oct 02, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#646](https://github.com/Hebbian-Robotics/hflow/pull/646) | `fix(stage_execution): query file sizes concurrently in plan_stage_batches (#643)` | Oct 01, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#644](https://github.com/Hebbian-Robotics/hflow/pull/644) | `fix(episode): handle empty channels in ChannelData.to_arrow (#631)` | Oct 01, 2026 |
 | [AssemblyAI/assemblyai-python-sdk](https://github.com/AssemblyAI/assemblyai-python-sdk) | [#255](https://github.com/AssemblyAI/assemblyai-python-sdk/pull/255) | `fix(streaming): add non-negative validation constraints to RealTimeTr…` | Sep 29, 2026 |
