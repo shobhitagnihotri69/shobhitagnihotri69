@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 31** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 32** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#663](https://github.com/Hebbian-Robotics/hflow/pull/663) | `fix(stage_planning): read check_runs_latest to plan retries for errored checks (#659)` | Oct 02, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#952](https://github.com/RunanywhereAI/runanywhere-sdks/pull/952) | `docs(core,swift): propagate UTF-8 text-run streaming docstrings acros…` | Oct 02, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#648](https://github.com/Hebbian-Robotics/hflow/pull/648) | `fix(examples/lerobot): support multi-task datasets and global task indices (#632)` | Oct 02, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#646](https://github.com/Hebbian-Robotics/hflow/pull/646) | `fix(stage_execution): query file sizes concurrently in plan_stage_batches (#643)` | Oct 01, 2026 |
