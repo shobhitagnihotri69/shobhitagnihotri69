@@ -14,10 +14,15 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 33** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 38** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#525](https://github.com/robocurve/inspect-robots/pull/525) | `fix(task): reject duplicate scorer names and support custom scorer names (#480)` | Oct 03, 2026 |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#666](https://github.com/Hebbian-Robotics/hflow/pull/666) | `fix(checks): check message count before to_numpy in motion profiles (#665)` | Oct 03, 2026 |
+| [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#520](https://github.com/robocurve/inspect-robots/pull/520) | `fix(eval): isolate LogSink exceptions in _Broadcast fan-out (#511)` | Oct 03, 2026 |
+| [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#504](https://github.com/robocurve/inspect-robots/pull/504) | `fix(logging): normalize NumPy integer and Boolean scalars in JSON logs` | Oct 03, 2026 |
+| [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#509](https://github.com/robocurve/inspect-robots/pull/509) | `fix(video): clean up subprocess and partial output on escaping exceptions (#508)` | Oct 03, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#664](https://github.com/Hebbian-Robotics/hflow/pull/664) | `fix(episode): allow null elements in numeric list columns in to_arrow (#662)` | Oct 03, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#663](https://github.com/Hebbian-Robotics/hflow/pull/663) | `fix(stage_planning): read check_runs_latest to plan retries for errored checks (#659)` | Oct 02, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#952](https://github.com/RunanywhereAI/runanywhere-sdks/pull/952) | `docs(core,swift): propagate UTF-8 text-run streaming docstrings acros…` | Oct 02, 2026 |
