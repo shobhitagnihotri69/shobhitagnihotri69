@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 38** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 39** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#673](https://github.com/Hebbian-Robotics/hflow/pull/673) | `fix(reader): avoid full scan on empty selection or unknown channels (#669)` | Oct 03, 2026 |
 | [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#525](https://github.com/robocurve/inspect-robots/pull/525) | `fix(task): reject duplicate scorer names and support custom scorer names (#480)` | Oct 03, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#666](https://github.com/Hebbian-Robotics/hflow/pull/666) | `fix(checks): check message count before to_numpy in motion profiles (#665)` | Oct 03, 2026 |
 | [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#520](https://github.com/robocurve/inspect-robots/pull/520) | `fix(eval): isolate LogSink exceptions in _Broadcast fan-out (#511)` | Oct 03, 2026 |
