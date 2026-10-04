@@ -14,10 +14,12 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 39** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 41** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#679](https://github.com/Hebbian-Robotics/hflow/pull/679) | `fix(stage_execution): exclude failed sync sources from post-sync planning (#675)` | Oct 04, 2026 |
+| [Osmosis-AI/osmosis-sdk-python](https://github.com/Osmosis-AI/osmosis-sdk-python) | [#410](https://github.com/Osmosis-AI/osmosis-sdk-python/pull/410) | `[rollout][server] fix: resolve rollout future on execution task crash` | Oct 04, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#673](https://github.com/Hebbian-Robotics/hflow/pull/673) | `fix(reader): avoid full scan on empty selection or unknown channels (#669)` | Oct 03, 2026 |
 | [robocurve/inspect-robots](https://github.com/robocurve/inspect-robots) | [#525](https://github.com/robocurve/inspect-robots/pull/525) | `fix(task): reject duplicate scorer names and support custom scorer names (#480)` | Oct 03, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#666](https://github.com/Hebbian-Robotics/hflow/pull/666) | `fix(checks): check message count before to_numpy in motion profiles (#665)` | Oct 03, 2026 |
