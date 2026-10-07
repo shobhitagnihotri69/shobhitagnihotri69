@@ -14,10 +14,13 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 45** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 48** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#705](https://github.com/Hebbian-Robotics/hflow/pull/705) | `fix(curation): draw tags_latest and intervals_latest from each check's latest run` | Oct 07, 2026 |
+| [trycua/cua](https://github.com/trycua/cua) | [#3911](https://github.com/trycua/cua/pull/3911) | `fix(lume): shell-escape remote command arguments in lume ssh (#3879)` | Oct 07, 2026 |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#701](https://github.com/Hebbian-Robotics/hflow/pull/701) | `fix(checks): duration-weight final_pose_speed and retain on sparse streams` | Oct 07, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#697](https://github.com/Hebbian-Robotics/hflow/pull/697) | `fix(server): retain latest check intervals and tags across multi-stage appends (#696)` | Oct 07, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#695](https://github.com/Hebbian-Robotics/hflow/pull/695) | `fix(checks): skip empty state streams in timestamp sync offsets (#691)` | Oct 06, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#692](https://github.com/Hebbian-Robotics/hflow/pull/692) | `feat(planning): granular step-level execution planning for Stage.META` | Oct 06, 2026 |
