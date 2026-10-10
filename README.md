@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 49** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 50** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#713](https://github.com/Hebbian-Robotics/hflow/pull/713) | `fix(checks): normalize interval bounds in _mask_run_intervals for non-monotonic streams` | Oct 10, 2026 |
 | [preloop/preloop](https://github.com/preloop/preloop) | [#1116](https://github.com/preloop/preloop/pull/1116) | `feat(tools): rename search to search_issues and trim search_sessions schema (Closes #1044)` | Oct 09, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#705](https://github.com/Hebbian-Robotics/hflow/pull/705) | `fix(curation): draw tags_latest and intervals_latest from each check's latest run` | Oct 07, 2026 |
 | [trycua/cua](https://github.com/trycua/cua) | [#3911](https://github.com/trycua/cua/pull/3911) | `fix(lume): shell-escape remote command arguments in lume ssh (#3879)` | Oct 07, 2026 |
