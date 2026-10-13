@@ -14,10 +14,12 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 54** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 56** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#963](https://github.com/RunanywhereAI/runanywhere-sdks/pull/963) | `fix(swift): decouple AVAudioPlayerDelegate into extension with noniso…` | Oct 13, 2026 |
+| [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#989](https://github.com/RunanywhereAI/runanywhere-sdks/pull/989) | `fix(mlx): filter MLX runtime debug and info logs by SDK log level (#984)` | Oct 13, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#719](https://github.com/Hebbian-Robotics/hflow/pull/719) | `fix(checks): guard ZeroDivisionError on non-advancing camera clocks (#717)` | Oct 13, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#716](https://github.com/Hebbian-Robotics/hflow/pull/716) | `fix(checks): reject backward trajectory timestamps against accepted history (#714)` | Oct 11, 2026 |
 | [caura-ai/caura](https://github.com/caura-ai/caura) | [#1698](https://github.com/caura-ai/caura/pull/1698) | `fix(events): type pull_executor concretely in _hold_leases (#1596)` | Oct 11, 2026 |
