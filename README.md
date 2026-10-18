@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 59** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 60** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Laimos-code/lore-company-brain](https://github.com/Laimos-code/lore-company-brain) | [#3](https://github.com/Laimos-code/lore-company-brain/pull/3) | `feat(agent): implement graph agent with tool calling, citation normalization, and evidence map` | Oct 18, 2026 |
 | [Laimos-code/lore-company-brain](https://github.com/Laimos-code/lore-company-brain) | [#1](https://github.com/Laimos-code/lore-company-brain/pull/1) | `feat(server): FastAPI backend, tool contract, rate limiting, docker-compose, and web UI` | Oct 17, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1055](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1055) | `refactor(web): replace duplicate AsyncQueue with @runanywhere/proto-ts push queue (#856)` | Oct 15, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1051](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1051) | `test(web): add failure-path test for CrossWasmRAGProvider.ragQueryStream (#1037)` | Oct 15, 2026 |
