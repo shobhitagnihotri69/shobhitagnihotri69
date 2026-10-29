@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 61** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 62** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#744](https://github.com/Hebbian-Robotics/hflow/pull/744) | `fix(lerobot): preserve AUD start codes when transcoding video (#743)` | Oct 29, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#734](https://github.com/Hebbian-Robotics/hflow/pull/734) | `fix(measurements): align rgb_frames sampling with output ticks (#733)` | Oct 28, 2026 |
 | [Laimos-code/lore-company-brain](https://github.com/Laimos-code/lore-company-brain) | [#3](https://github.com/Laimos-code/lore-company-brain/pull/3) | `feat(agent): implement graph agent with tool calling, citation normalization, and evidence map` | Oct 18, 2026 |
 | [Laimos-code/lore-company-brain](https://github.com/Laimos-code/lore-company-brain) | [#1](https://github.com/Laimos-code/lore-company-brain/pull/1) | `feat(server): FastAPI backend, tool contract, rate limiting, docker-compose, and web UI` | Oct 17, 2026 |
