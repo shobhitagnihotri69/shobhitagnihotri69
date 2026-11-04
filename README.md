@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 64** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 65** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1069](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1069) | `fix: wire log level setters into commons logger across Kotlin, Flutter, RN, and Web (#1059)` | Nov 04, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1070](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1070) | `fix(jni): validate cached refs and method ids across registration paths (#1044)` | Nov 03, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1068](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1068) | `fix(commons): check allocations in remaining proto adapters (#1061)` | Nov 03, 2026 |
 | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | [#744](https://github.com/Hebbian-Robotics/hflow/pull/744) | `fix(lerobot): preserve AUD start codes when transcoding video (#743)` | Oct 29, 2026 |
