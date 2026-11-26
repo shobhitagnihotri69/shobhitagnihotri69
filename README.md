@@ -14,10 +14,11 @@ Education:
 Open Source Contributions & Merged Pull Requests:
 <!-- START_MERGED_PRS -->
 <!-- Do not edit this section manually. It is automatically updated by GitHub Actions. -->
-> **Total Merged Pull Requests: 67** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
+> **Total Merged Pull Requests: 68** across frontier AI agent runtimes, robotics foundation data pipelines, and developer tooling.
 
 | Repository | PR | Description | Merged Date |
 | :--- | :---: | :--- | :---: |
+| [workersio/breakscale](https://github.com/workersio/breakscale) | [#136](https://github.com/workersio/breakscale/pull/136) | `fix(vendors): price AWS workers with the service sizes they share` | Nov 26, 2026 |
 | [pydantic/monty](https://github.com/pydantic/monty) | [#1410](https://github.com/pydantic/monty/pull/1410) | `Name the called function in `**` duplicate-keyword errors` | Nov 23, 2026 |
 | [Hebbian-Robotics/rua](https://github.com/Hebbian-Robotics/rua) | [#6](https://github.com/Hebbian-Robotics/rua/pull/6) | `Reconnect the station event stream after 30 seconds of silence` | Nov 21, 2026 |
 | [RunanywhereAI/runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | [#1069](https://github.com/RunanywhereAI/runanywhere-sdks/pull/1069) | `fix: wire log level setters into commons logger across Kotlin, Flutter, RN, and Web (#1059)` | Nov 04, 2026 |
